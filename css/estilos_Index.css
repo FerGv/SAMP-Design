@@ -4,6 +4,10 @@
 	font-size: 16px;
 }
 
+
+
+/*** HEADER ***/
+
 header {
 	width: 100%;
 	display: table;
@@ -35,6 +39,7 @@ header nav ul {
 	list-style: none;
 	display: table;
 	width: 100%;
+
 }
 
 header nav ul li {
@@ -47,7 +52,7 @@ header nav ul li a {
 	height: 100%;
 	box-sizing: border-box;
 	line-height: 15px;
-	padding: 20px;
+	padding: 1em 0;
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.3em;
@@ -62,6 +67,10 @@ header nav ul li a {
 header nav ul li a:hover {
 	background: #009688;
 }
+
+
+
+/*** PRINCIPAL ***/
 
 section .principal {
 	width: 100%;
@@ -98,9 +107,9 @@ section.principal section.bienvenida form input {
 }
 
 ::-webkit-input-placeholder { color:#727272; }
-::-moz-placeholder { color:#727272; }
-:-ms-input-placeholder { color:#727272; }
-input:-moz-placeholder { color:#727272; }
+::-moz-placeholder 			{ color:#727272; }
+:-ms-input-placeholder 		{ color:#727272; }
+input:-moz-placeholder 		{ color:#727272; }
 
 section.principal section.bienvenida form input[type="submit"] {
 	background: #009688;
@@ -116,6 +125,10 @@ section.principal section.bienvenida form input[type="submit"] {
 section.principal section.bienvenida form input[type="submit"]:hover {
 	background: #448AFF;
 }
+
+
+
+/*** FOOTER ***/
 
 footer {
 	width: 100%;

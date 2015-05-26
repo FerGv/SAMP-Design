@@ -14,11 +14,19 @@
 	section.principal section.bienvenida {
 		max-width: 325px;
 	}
+
+	header nav ul li a {
+		font-size: 1.1em;
+	}
 }
 
 @media (min-width: 800px) {
 	section.principal section.bienvenida {
 		max-width: 350px;
+	}
+
+	header nav ul li a {
+		font-size: 1.3em;
 	}
 }
 
@@ -26,10 +34,18 @@
 	section.principal section.bienvenida {
 		max-width: 375px;
 	}
+
+	header nav ul li a {
+		font-size: 1.3em;
+	}
 }
 
 @media (min-width: 1200px) {
 	section.principal section.bienvenida {
 		max-width: 400px;
+	}
+
+	header nav ul li a {
+		font-size: 1.3em;
 	}
 }
