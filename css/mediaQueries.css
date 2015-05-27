@@ -1,16 +1,20 @@
-@media (min-width: 200px) {
+@media screen and (min-width: 200px) {
 	section.principal section.bienvenida {
 		max-width: 250px;
 	}
+
+	header {
+		height: 50px;
+	}
 }
 
-@media (min-width: 400px) {
+@media screen and (min-width: 400px) {
 	section.principal section.bienvenida {
 		max-width: 300px;
 	}
 }
 
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) {
 	section.principal section.bienvenida {
 		max-width: 325px;
 	}
@@ -20,7 +24,26 @@
 	}
 }
 
-@media (min-width: 800px) {
+@media screen and (max-width: 700px) {
+	section.principal section.bienvenida {
+		max-width: 325px;
+	}
+
+	header div {
+		display: table-cell;
+		width: 40%;
+	}
+
+	header figure {
+		width: 30%;
+	}
+
+	header nav {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 800px) {
 	section.principal section.bienvenida {
 		max-width: 350px;
 	}
@@ -30,7 +53,7 @@
 	}
 }
 
-@media (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
 	section.principal section.bienvenida {
 		max-width: 375px;
 	}
@@ -40,7 +63,7 @@
 	}
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 	section.principal section.bienvenida {
 		max-width: 400px;
 	}
