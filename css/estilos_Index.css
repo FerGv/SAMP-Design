@@ -57,12 +57,17 @@ header nav ul li a {
 	color: #000;
 	display: block;
 	height: 100%;
-	box-sizing: border-box;
 	line-height: 15px;
 	padding: 1em;
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.3em;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
 
 	-webkit-transition: all .5s ease;	
 	-moz-transition: all .5s ease;
@@ -78,9 +83,19 @@ header nav ul li a:hover {
 
 
 
+
+/*** MENU ***/
+
+section.menu {
+	display: none;
+}
+
+
+
+
 /*** PRINCIPAL ***/
 
-section .principal {
+section.principal {
 	width: 100%;
 }
 
@@ -103,7 +118,6 @@ section.principal section.bienvenida p {
 }
 
 section.principal section.bienvenida form input {
-	box-sizing: border-box;
 	margin-bottom: 10px;
 	width: 100%;
 	padding: 10px;
@@ -112,6 +126,12 @@ section.principal section.bienvenida form input {
 	vertical-align: middle;
 	border: none;
 	color: #000;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 ::-webkit-input-placeholder { color:#727272; }

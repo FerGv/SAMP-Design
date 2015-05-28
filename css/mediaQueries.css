@@ -8,6 +8,12 @@
 	}
 }
 
+@media screen and (max-width: 350px) {
+	header figure {
+		display: none;
+	}
+}
+
 @media screen and (min-width: 400px) {
 	section.principal section.bienvenida {
 		max-width: 300px;
@@ -29,17 +35,71 @@
 		max-width: 325px;
 	}
 
-	header div {
-		display: table-cell;
-		width: 40%;
-	}
-
 	header figure {
 		width: 30%;
 	}
 
 	header nav {
 		display: none;
+	}
+
+	header div {
+		display: table-cell;
+		width: 40%;
+		height: 100%;
+		vertical-align: middle;
+	}
+
+	header div a {
+		display: block;
+		padding: 1em;
+		text-decoration: none;
+	}
+
+	header div a span {
+		font-size: 2em;
+		color: #009688;
+	}
+
+	section.menu {
+		display: block;
+		position: fixed;
+		left: -100%;
+		height: 100%;
+		width: 20em;
+	}
+
+	section.menu nav {
+		display: block;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+	}
+
+	section.menu nav ul {
+		display: block;
+		list-style: none;
+		width: 100%;
+		height: 100%;
+	}
+
+	section.menu nav ul li a {
+		display: block;
+		padding: 1em;
+		text-decoration: none;
+		background: #009688;
+		font-size: 1.3em;
+		color: #fff;
+
+		-webkit-transition: all .5s ease;	
+		-moz-transition: all .5s ease;
+		-ms-transition: all .5s ease;
+		-o-transition: all .5s ease;
+		transition: all .5s ease;
+	}
+
+	section.menu nav ul li a:hover {
+		background: #00796B;
 	}
 }
 
