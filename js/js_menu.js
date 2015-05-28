@@ -6,7 +6,7 @@ function main(){
 	$('.btn_menu').click(function(){
 		if(contador == 1){
 
-			$('.menu').animate({
+			$('nav').animate({
 				left: '0'
 			});
 			contador = 0;
@@ -15,12 +15,10 @@ function main(){
 		else {
 
 			contador = 1;
-			$('.menu').animate({
+			$('nav').animate({
 				left: '-100%'
 			});
 			$('.icon-menu4').attr("class", "icon-menu3");
 		}
- 
 	});
- 
 };

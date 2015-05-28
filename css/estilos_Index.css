@@ -45,7 +45,6 @@ header nav ul {
 	list-style: none;
 	display: table;
 	width: 100%;
-
 }
 
 header nav ul li {
@@ -80,16 +79,6 @@ header nav ul li a:hover {
 	background: #009688;
 	color: #fff;
 }
-
-
-
-
-/*** MENU ***/
-
-section.menu {
-	display: none;
-}
-
 
 
 
@@ -151,7 +140,7 @@ section.principal section.bienvenida form input[type="submit"] {
 }
 
 section.principal section.bienvenida form input[type="submit"]:hover {
-	background: #448AFF;
+	background: #00796B;
 }
 
 

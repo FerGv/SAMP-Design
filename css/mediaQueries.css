@@ -8,9 +8,17 @@
 	}
 }
 
-@media screen and (max-width: 350px) {
-	header figure {
+@media screen and (max-width: 450px) {
+	header figure.logo_gob {
 		display: none;
+	}
+
+	header figure.logo_imss {
+		width: 50%;
+	}
+
+	header div {
+		width: 50%;
 	}
 }
 
@@ -39,14 +47,9 @@
 		width: 30%;
 	}
 
-	header nav {
-		display: none;
-	}
-
 	header div {
 		display: table-cell;
 		width: 40%;
-		height: 100%;
 		vertical-align: middle;
 	}
 
@@ -61,29 +64,22 @@
 		color: #009688;
 	}
 
-	section.menu {
-		display: block;
-		position: fixed;
+	header nav {
+		position: absolute;
+		top: 80px;
 		left: -100%;
-		height: 100%;
-		width: 20em;
-	}
-
-	section.menu nav {
 		display: block;
-		height: 100%;
-		width: 100%;
-		text-align: center;
+		width: 300px;
+		height: 14em;
+		background: #000;	
 	}
 
-	section.menu nav ul {
+	header nav ul li {
 		display: block;
-		list-style: none;
 		width: 100%;
-		height: 100%;
 	}
 
-	section.menu nav ul li a {
+	header nav ul li a {
 		display: block;
 		padding: 1em;
 		text-decoration: none;
@@ -98,7 +94,7 @@
 		transition: all .5s ease;
 	}
 
-	section.menu nav ul li a:hover {
+	header nav ul li a:hover {
 		background: #00796B;
 	}
 }
