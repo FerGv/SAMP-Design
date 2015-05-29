@@ -80,6 +80,13 @@ header nav ul li a:hover {
 	color: #fff;
 }
 
+header nav ul li a.actual {
+	background: #00796B;
+	color: #fff;
+}
+
+
+
 
 
 /*** PRINCIPAL ***/
@@ -98,13 +105,6 @@ section.principal section.contenido {
 	line-height: 2em;
 }
 
-section.principal section.contenido h1 {
-	font-size: 1.8em;
-}
-
-section.principal section.contenido p {
-	margin-bottom: 1em;
-}
 
 section.principal section.contenido form input {
 	margin-bottom: 10px;
@@ -142,6 +142,9 @@ section.principal section.contenido form input[type="submit"] {
 section.principal section.contenido form input[type="submit"]:hover {
 	background: #00796B;
 }
+
+
+
 
 
 

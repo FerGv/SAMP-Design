@@ -1,5 +1,5 @@
 @media screen and (min-width: 200px) {
-	section.principal section.bienvenida {
+	section.principal section.contenido {
 		max-width: 250px;
 	}
 
@@ -23,13 +23,13 @@
 }
 
 @media screen and (min-width: 400px) {
-	section.principal section.bienvenida {
+	section.principal section.contenido {
 		max-width: 300px;
 	}
 }
 
 @media screen and (min-width: 600px) {
-	section.principal section.bienvenida {
+	section.principal section.contenido {
 		max-width: 325px;
 	}
 
@@ -39,7 +39,7 @@
 }
 
 @media screen and (max-width: 700px) {
-	section.principal section.bienvenida {
+	section.principal section.contenido {
 		max-width: 325px;
 	}
 
@@ -71,7 +71,6 @@
 		display: block;
 		width: 300px;
 		height: 14em;
-		background: #000;	
 	}
 
 	header nav ul li {
@@ -86,12 +85,6 @@
 		background: #009688;
 		font-size: 1.3em;
 		color: #fff;
-
-		-webkit-transition: all .5s ease;	
-		-moz-transition: all .5s ease;
-		-ms-transition: all .5s ease;
-		-o-transition: all .5s ease;
-		transition: all .5s ease;
 	}
 
 	header nav ul li a:hover {
@@ -100,7 +93,7 @@
 }
 
 @media screen and (min-width: 800px) {
-	section.principal section.bienvenida {
+	section.principal section.contenido {
 		max-width: 350px;
 	}
 
@@ -110,7 +103,7 @@
 }
 
 @media screen and (min-width: 1000px) {
-	section.principal section.bienvenida {
+	section.principal section.contenido {
 		max-width: 375px;
 	}
 
@@ -120,7 +113,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-	section.principal section.bienvenida {
+	section.principal section.contenido {
 		max-width: 400px;
 	}
 
